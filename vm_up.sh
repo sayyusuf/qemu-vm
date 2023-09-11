@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 if [[ -n $1 && -n $2 && -n $3 ]]
 then 
 	qemu-system-x86_64 -m $1 -smp 2 -enable-kvm \
